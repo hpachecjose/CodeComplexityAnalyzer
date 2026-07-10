@@ -1,0 +1,822 @@
+{
+  "by_file": {
+    "./cli.py": {
+      "functions": [
+        {
+          "name": "analyze_path",
+          "start_line": 13,
+          "end_line": 63,
+          "loc": 51,
+          "complexity": 5,
+          "max_loop_depth": 2,
+          "loop_count": 2,
+          "is_recursive": false,
+          "big_o_estimativa": "O(n^2)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 4,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "main_cli",
+          "start_line": 68,
+          "end_line": 86,
+          "loc": 19,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 0,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 2,
+        "max_complexity": 5,
+        "average": 3.0
+      }
+    },
+    "./parser/parser.py": {
+      "functions": [
+        {
+          "name": "discover_python_files",
+          "start_line": 11,
+          "end_line": 27,
+          "loc": 17,
+          "complexity": 7,
+          "max_loop_depth": 2,
+          "loop_count": 2,
+          "is_recursive": false,
+          "big_o_estimativa": "O(n^2)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 3,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "read_file",
+          "start_line": 35,
+          "end_line": 37,
+          "loc": 3,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "parse_python_file",
+          "start_line": 42,
+          "end_line": 53,
+          "loc": 12,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 2,
+          "parameters_count": 1,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 3,
+        "max_complexity": 7,
+        "average": 3.3333333333333335
+      }
+    },
+    "./normalizador_ast/normalizador.py": {
+      "functions": [
+        {
+          "name": "normalizar",
+          "start_line": 1,
+          "end_line": 9,
+          "loc": 9,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 1,
+        "max_complexity": 1,
+        "average": 1.0
+      }
+    },
+    "./relatorios/relatorio.py": {
+      "functions": [
+        {
+          "name": "apply_thresholds",
+          "start_line": 11,
+          "end_line": 33,
+          "loc": 23,
+          "complexity": 5,
+          "max_loop_depth": 2,
+          "loop_count": 2,
+          "is_recursive": false,
+          "big_o_estimativa": "O(n^2)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 4,
+          "parameters_count": 2,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 1,
+        "max_complexity": 5,
+        "average": 5.0
+      }
+    },
+    "./motor_regras/complexidade_ciclomatica/analise_ciclomatica.py": {
+      "functions": [
+        {
+          "name": "__init__",
+          "start_line": 39,
+          "end_line": 44,
+          "loc": 6,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "_push_scope",
+          "start_line": 47,
+          "end_line": 54,
+          "loc": 8,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 3,
+          "flag": "ok"
+        },
+        {
+          "name": "_pop_scope",
+          "start_line": 56,
+          "end_line": 71,
+          "loc": 16,
+          "complexity": 3,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "_current_scope",
+          "start_line": 73,
+          "end_line": 74,
+          "loc": 2,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_FunctionDef",
+          "start_line": 77,
+          "end_line": 81,
+          "loc": 5,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_AsyncFunctionDef",
+          "start_line": 83,
+          "end_line": 84,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_ClassDef",
+          "start_line": 87,
+          "end_line": 89,
+          "loc": 3,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_If",
+          "start_line": 92,
+          "end_line": 97,
+          "loc": 6,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_For",
+          "start_line": 99,
+          "end_line": 103,
+          "loc": 5,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_AsyncFor",
+          "start_line": 105,
+          "end_line": 106,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_While",
+          "start_line": 108,
+          "end_line": 112,
+          "loc": 5,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_Try",
+          "start_line": 114,
+          "end_line": 119,
+          "loc": 6,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_BoolOp",
+          "start_line": 121,
+          "end_line": 128,
+          "loc": 8,
+          "complexity": 3,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 2,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_IfExp",
+          "start_line": 130,
+          "end_line": 135,
+          "loc": 6,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_Lambda",
+          "start_line": 137,
+          "end_line": 142,
+          "loc": 6,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_ListComp",
+          "start_line": 144,
+          "end_line": 145,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_SetComp",
+          "start_line": 146,
+          "end_line": 147,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_DictComp",
+          "start_line": 148,
+          "end_line": 149,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_GeneratorExp",
+          "start_line": 150,
+          "end_line": 151,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "_handle_comprehension",
+          "start_line": 153,
+          "end_line": 159,
+          "loc": 7,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_Match",
+          "start_line": 162,
+          "end_line": 167,
+          "loc": 6,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "generic_visit",
+          "start_line": 170,
+          "end_line": 172,
+          "loc": 3,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "file_summary",
+          "start_line": 175,
+          "end_line": 183,
+          "loc": 9,
+          "complexity": 3,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 1,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 23,
+        "max_complexity": 3,
+        "average": 1.6956521739130435
+      }
+    },
+    "./motor_regras/deteccao_loops/deteccao_loops.py": {
+      "functions": [
+        {
+          "name": "__init__",
+          "start_line": 11,
+          "end_line": 14,
+          "loc": 4,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "_push_scope",
+          "start_line": 16,
+          "end_line": 25,
+          "loc": 10,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "_pop_scope",
+          "start_line": 27,
+          "end_line": 28,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "_current_scope",
+          "start_line": 30,
+          "end_line": 31,
+          "loc": 2,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_FunctionDef",
+          "start_line": 33,
+          "end_line": 37,
+          "loc": 5,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "_visit_loop",
+          "start_line": 41,
+          "end_line": 49,
+          "loc": 9,
+          "complexity": 3,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_For",
+          "start_line": 51,
+          "end_line": 52,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_While",
+          "start_line": 56,
+          "end_line": 57,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit_Call",
+          "start_line": 59,
+          "end_line": 71,
+          "loc": 13,
+          "complexity": 8,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 4,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "_descrever_argumento",
+          "start_line": 73,
+          "end_line": 87,
+          "loc": 15,
+          "complexity": 5,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 2,
+          "parameters_count": 2,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 10,
+        "max_complexity": 8,
+        "average": 2.4
+      }
+    },
+    "./motor_regras/estimativas_big_o/estimativa_big_o.py": {
+      "functions": [
+        {
+          "name": "estimar",
+          "start_line": 14,
+          "end_line": 70,
+          "loc": 57,
+          "complexity": 11,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 2,
+          "parameters_count": 1,
+          "flag": "warn"
+        }
+      ],
+      "summary": {
+        "total_functions": 1,
+        "max_complexity": 11,
+        "average": 11.0
+      }
+    },
+    "./motor_regras/qualidade/metricas_basicas.py": {
+      "functions": [
+        {
+          "name": "__init__",
+          "start_line": 12,
+          "end_line": 14,
+          "loc": 3,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "genericamente_visitar_bloco",
+          "start_line": 16,
+          "end_line": 23,
+          "loc": 8,
+          "complexity": 2,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 1,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "visit",
+          "start_line": 25,
+          "end_line": 26,
+          "loc": 2,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 2,
+          "flag": "ok"
+        },
+        {
+          "name": "calcular_profundidade_maxima",
+          "start_line": 29,
+          "end_line": 32,
+          "loc": 4,
+          "complexity": 1,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        },
+        {
+          "name": "contar_parametros",
+          "start_line": 35,
+          "end_line": 37,
+          "loc": 3,
+          "complexity": 3,
+          "max_loop_depth": 0,
+          "loop_count": 0,
+          "is_recursive": false,
+          "big_o_estimativa": "O(1)",
+          "big_o_confianca": "media",
+          "max_ast_depth": 0,
+          "parameters_count": 1,
+          "flag": "ok"
+        }
+      ],
+      "summary": {
+        "total_functions": 5,
+        "max_complexity": 3,
+        "average": 1.6
+      }
+    }
+  },
+  "summary": {
+    "total_files": 8,
+    "total_functions": 46,
+    "hotspots": [
+      [
+        11,
+        "./motor_regras/estimativas_big_o/estimativa_big_o.py",
+        "estimar"
+      ],
+      [
+        8,
+        "./motor_regras/deteccao_loops/deteccao_loops.py",
+        "visit_Call"
+      ],
+      [
+        7,
+        "./parser/parser.py",
+        "discover_python_files"
+      ],
+      [
+        5,
+        "./relatorios/relatorio.py",
+        "apply_thresholds"
+      ],
+      [
+        5,
+        "./motor_regras/deteccao_loops/deteccao_loops.py",
+        "_descrever_argumento"
+      ],
+      [
+        5,
+        "./cli.py",
+        "analyze_path"
+      ],
+      [
+        3,
+        "./motor_regras/qualidade/metricas_basicas.py",
+        "contar_parametros"
+      ],
+      [
+        3,
+        "./motor_regras/deteccao_loops/deteccao_loops.py",
+        "_visit_loop"
+      ],
+      [
+        3,
+        "./motor_regras/complexidade_ciclomatica/analise_ciclomatica.py",
+        "visit_BoolOp"
+      ],
+      [
+        3,
+        "./motor_regras/complexidade_ciclomatica/analise_ciclomatica.py",
+        "file_summary"
+      ]
+    ]
+  }
+}
