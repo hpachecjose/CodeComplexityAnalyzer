@@ -8,7 +8,7 @@ from motor_regras.complexidade_ciclomatica.analise_ciclomatica import Cyclomatic
 from motor_regras.deteccao_loops.deteccao_loops import LoopRecursaoVisitor
 from motor_regras.estimativas_big_o.estimativa_big_o import estimar
 from motor_regras.qualidade.metricas_basicas import calcular_profundidade_maxima, contar_parametros
-from relatorios.relatorio import apply_thresholds
+from relatorios.relatorio import apply_thresholds, exportar_csv
 
 def analyze_path(path: str, config: dict) -> dict:
     files = discover_python_files(path, config)
@@ -84,6 +84,10 @@ def main_cli():
     with open(args.output, "w", encoding="utf-8") as fh:
         json.dump(res, fh, indent=2, ensure_ascii=False)
     print(f"Relatório gerado em {args.output}")
+    
+    csv_path = "relatorios/cc_report.csv"
+    exportar_csv(res, csv_path)
+    print(f"Relatório CSV gerado em {csv_path}")
 
 if __name__ == "__main__":
     main_cli()
